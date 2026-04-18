@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   # Run every 4 hours https://crontab.guru/every-4-hours
   schedule:
-    - cron: '0 */4 * * *'
+  
 
 jobs:
   create-pull-request:
